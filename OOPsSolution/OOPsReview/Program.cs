@@ -81,7 +81,7 @@ namespace OOPsReview
             gatelist.Add(gateinfo);
 
             //create the Estimate
-            Estimate ClientEstimate = new Estimate();
+            Estimate ClientEstimate = new Estimate(); //system default. no constructors 
             ClientEstimate.LinearLength = linearlength;
             ClientEstimate.Panel = panel;
             ClientEstimate.Gates = gatelist;
